@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>XX����ϵͳ</title>
+    <style type="text/css">
+        body{
+            text-align: center;
+            margin: 0 auto;
+            background: url("") no-repeat;
+        }
+
+        div{
+           margin-top: 230px;
+        }
+
+        #h_title{
+            color: blue;
+            font-size: 36px;
+            font-weight: bold;
+        }
+        label{
+            font-size: 24px;
+            font-weight: bold;
+        }
+        .h_login{
+            width: 200px;
+            height: 24px;
+            border: 2px red dashed;
+        }
+        .h_s ,.h_r{
+            width: 100px;
+            height: 36px;
+            background-color: darkcyan;
+            border: 0px;
+        }
+        .h_r{
+            margin-left: 70px;
+        }
+
+
+    </style>
+</head>
+<body>
+<form>
+     <div>
+         <span id="h_title">������ҵѧԺ����ϵͳ</span><br><br><br>
+         <label >�û�����</label><input type="text" class="h_login"><br><br><br>
+         <label>��&nbsp;&nbsp;&nbsp;�룺</label><input type="password" class="h_login"><br><br><br>
+         <input type="submit" value="��½" class="h_s"><input type="button" value="ע��" class="h_r">
+     </div>
+</form>
+</body>
+</html>
